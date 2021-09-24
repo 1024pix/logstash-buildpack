@@ -1,7 +1,1 @@
 #!/bin/bash
-
-BUILDPACK_PATH=$(dirname $(readlink -f $0))
-
-`ls -laR $BUILDPACK_PATH`
-
-. $BUILDPACK_PATH/opt/jvmcommon.sh
